@@ -1,0 +1,13 @@
+<%= form_for(@post) do |f| %>
+    <p>
+        titles
+        <%= f.text_field :title, :required => true %>
+    </p> 
+    <p>
+        Decsrtips
+        <%= f.text_field :desc, :required => true %>
+    </p> 
+   <p>
+      <%= f.submit "Post Food", :class => 'btn btn-success' %>
+   </p>
+<% end %>
