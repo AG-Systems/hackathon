@@ -1,7 +1,7 @@
 #banner {
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding: 150px 0px 150px 0px;
 	background-color: #80dfff;
+  margin: 0px;
 }
 
 #sign-in {
@@ -11,6 +11,17 @@
 	color: white;
 	text-align: center;
 	font-size: 100px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+  height: 600px;
+}
+
+.body {
+  padding: 0px;
+  margin: 0px;
 }
 
 .border-form-div {
@@ -65,4 +76,12 @@
 #description {
   font-size: 30px;
   float: left;
+}
+
+#bigguytai {
+  height: 100px;
+}
+
+.row {
+  height: 100px;
 }
