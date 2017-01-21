@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     root "posts#index"
     get 'new' => 'posts#new'
     get 'about' => 'posts#about'
+    get 'knaaawledge' => 'posts#knaaawledge'
 end
