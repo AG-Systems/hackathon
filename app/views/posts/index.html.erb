@@ -19,11 +19,19 @@
 	</div>
 
 </div>
+<br>
  
-
+<div class="row">
 <% @posts.each do |post| %>
-<div id="title-test">
-    <%= post.title %>
-    <%= post.desc %>
-</div>
+  <div class="col-sm-6 col-md-4" id="<%= post.id %>">
+    <div class="thumbnail">
+      <img src="<%= post.image %>" width="350px">
+    </div>
+    <div class="info">
+        <h4><%= post.title %></h4>
+        <p><%= post.desc %></p>
+    </div>
+    <a href="posts/<%= post.id %>"><button type="button" class="btn btn-primary">Primary</button></a>
+  </div>
 <%end %>
+</div>
