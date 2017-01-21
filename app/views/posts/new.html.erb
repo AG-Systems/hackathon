@@ -1,10 +1,12 @@
+<body id="sign-in">
+<div class="border-form-div">
 <%= form_for(@post) do |f| %>
     <p>
-        titles
+        Title:
         <%= f.text_field :title, :required => true %>
     </p> 
     <p>
-        Decsrtips
+        Decsription:
         <%= f.text_field :desc, :required => true %>
     </p> 
  <div class="field">
@@ -16,7 +18,9 @@
       <%= f.check_box :remove_image %>
     <% end %>
   </div>
-   <p>
+   <p style="margin-top: 10px">
       <%= f.submit "Post Food", :class => 'btn btn-success' %>
    </p>
 <% end %>
+</div>
+</body>
