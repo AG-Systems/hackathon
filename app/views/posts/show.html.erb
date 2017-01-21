@@ -1,19 +1,22 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 <body id="sign-in">
 
-<div class="container-fluid">
+<div style="font-family: 'Oswald',sans-serif" class="container-fluid">
 
-<div class="col-lg-6 col-lg-offset-3">
-<div class="row">
-<%= @post.image %>
+<div id="frame" class="col-lg-2 col-lg-offset-5">
+<img class="img-responsive" src="<%= @post.image %>">
 </div>
-<div class="row">
+<div class="col-lg-2 col-lg-offset-5 details">
+<div id="divider" class="row">
 <%= @post.title %>
 </div>
-<div class="row">
-@post.description
+<div id="description" class="row">
+<%= @post.desc %>
 </div>
 </div>
 
+</div>
 </div>
 
 </body>
