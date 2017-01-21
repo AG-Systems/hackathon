@@ -20,4 +20,8 @@ class PostsController < ApplicationController
         # redirect_to job_path(@job)
         redirect_to root_path
     end
+    
+    def stats
+        @results = system "python ml.py" 
+    end
 end
