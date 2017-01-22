@@ -1,24 +1,4 @@
+>WasteNot is a project developed by Max Ch and Michael Hennelly during UC Santa Barbara's SBHacks III. We came to SBHacks wanting to make something that could help reduce food waste, especially for college students and others who live busy, fast paced lifestyles. We settled on making WasteNot, which is a platform for people to give away food they would have otherwise thrown away, such as leftover dishes from a potluck or nonperishables. Continuation of the project would include location services, feature to reserve food, and a timer so users could indicate at what time they will throw away the food. This was both of ours first hackathon, and we are both grateful to have had this opportunity. Challenges we faced were mostly in terms of design and layout, however our biggest takeaway from SBHacks was learning how to cooperate as a team when developing. We are very thankful for UCSB, MLH, and the SBHacks team to have hosted us and will take what we have learned this weekend in to future hackathons.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Tech Used: Ruby on Rails, and Google maps(did not have enough time)
 
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://hackathon-ag-systems.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
