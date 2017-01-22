@@ -1,5 +1,5 @@
 #banner {
-	padding: 150px 0px 150px 0px;
+	padding: 150px 0px 100px 0px;
 	background-color: #80dfff;
   margin: 0px;
 }
@@ -11,12 +11,6 @@
 	color: white;
 	text-align: center;
 	font-size: 100px;
-}
-
-.container-fluid {
-  padding: 0px;
-  margin: 0px;
-  height: 600px;
 }
 
 .body {
@@ -84,4 +78,22 @@
 
 .row {
   height: 100px;
+}
+
+#about {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+#link {
+  text-decoration: none;
+  color: white;
 }

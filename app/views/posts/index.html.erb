@@ -8,11 +8,11 @@
 
 		<div class="col-lg-12">
 
-			<h1 style="font-family: 'Oswald', sans-serif" id="title">Welcome to WasteNot</h1>
+			<h1 style="font-family: 'Oswald', sans-serif" id="about">Welcome to Was<a id="link" href="knaaawledge">t</a>eNot</h1>
 
 		</div>
 
-		<div class="col-lg-2 col-lg-offset-5">
+		<div class="col-lg-2 col-lg-offset-5 ">
 
 			<img class="img-responsive" src="http://pngimg.com/upload/pizza_PNG7151.png">
 
@@ -22,9 +22,13 @@
 
 	<div class="row">
 
-	<div class="col-lg-2 col-lg-offset-5">
+	<br>
+	<br>
 
-		<a style="float: center" href="new"><button type="button" class="btn btn-primary">Give Food!</button></a>
+	<div style="text-align: center" class="col-lg-2 col-lg-offset-5">
+
+		<br>
+		<a style="float: center" href="new"><button type="button" class="btn btn-lg btn-success">Give Food!</button></a>
 
 	</div>
 
@@ -34,17 +38,17 @@
 
 <br>
  
-<div class="row">
+<div style="margin-bottom: 20px" class="row">
 <% @posts.each do |post| %>
-  <div class="col-sm-6 col-md-4" id="<%= post.id %>">
-    <div class="thumbnail">
+  <div style="margin-bottom: 20px text-align: center" class="col-sm-6 col-md-4" id="<%= post.id %>">
+    <div style="border-width: 0px" class="thumbnail">
       <img src="<%= post.image %>" width="350px">
     </div>
     <div class="info">
-        <h4><%= post.title %></h4>
-        <p><%= post.desc %></p>
+        <h4 style="font-family: 'Oswald',sans-serif"><%= post.title %></h4>
+        <p style="font-family: 'Oswald',sans-serif"><%= post.desc %></p>
     </div>
-    <a href="posts/<%= post.id %>"><button type="button" class="btn btn-primary">Primary</button></a>
+    <a href="posts/<%= post.id %>"><button type="button" class="btn btn-success">Details</button></a>
   </div>
 <%end %>
 </div>
